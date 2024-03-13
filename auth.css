@@ -1,0 +1,79 @@
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.logInSignIn{
+    position: relative;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    background-color: rgb(186, 186, 186);
+    border-radius: 20px;
+    padding: 1em;
+    gap: 0.5em;
+}
+.buttons{
+    padding: 1.5em;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+.buttons:hover{
+    cursor: pointer;
+    background-color: rgb(224, 223, 223);
+}
+.buttons:focus{
+    cursor: pointer;
+    background-color: rgb(155, 155, 155);
+}
+.buttonsMenu{
+    grid-column-start: 1;
+    grid-column-end:3 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;  
+}
+.logIn{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0.5em;
+    gap: 1em; 
+}
+.signUp{
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0.5em;
+    gap: 0.5em;
+}
+.buttonLogCreate{
+    padding: 1em;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+.buttonLogCreate:hover{
+    cursor: pointer;
+    background-color: rgb(224, 223, 223);
+}
+input{
+    padding: 1.6em;
+}
